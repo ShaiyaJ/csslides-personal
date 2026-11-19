@@ -1,6 +1,14 @@
 /* A wrapper for a set of slides */
 div.slideshow {
     position: relative;
+    font-family: sans-serif;
+
+    margin: auto;
+
+    width: 40em;
+    height: 30em;
+
+    font-size: 3.5vh;
 
     /* Each slide is denoted with a section element, and is given a maximum size
        (the same as the slideshow container)*/
@@ -50,4 +58,24 @@ div.slideshow {
             left: 50%;
         }
     }
+}
+
+/* Specific css things */ 
+* {
+    background-color: #313438;
+    color: #E4D5B4;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.v, c-v {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.h, c-h {
+    display: inline-flex;
+    flex-direction: row;
 }
